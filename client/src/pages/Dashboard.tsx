@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from "react";
 import {
   Clock,
@@ -152,5 +153,12 @@ const Dashboard = () => {
     </div>
   );
 };
+=======
+import React from "react";
+
+function Dashboard() {
+  return <div>Dashboard</div>;
+}
+>>>>>>> e4d02891bace3424a69b515ab45922a9ef54a184
 
 export default Dashboard;
