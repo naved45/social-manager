@@ -197,11 +197,11 @@ import { dummyPostsData, PLATFORMS } from "../assets/assets";
 import {
   XIcon,
   CalendarIcon,
+  CalendarDaysIcon,
   ClockIcon,
   ArrowRightIcon,
   SendIcon,
 } from "lucide-react";
-// ✅ make sure you have lucide-react installed
 
 const Scheduler = () => {
   const [posts, setPosts] = useState<any[]>([]);
